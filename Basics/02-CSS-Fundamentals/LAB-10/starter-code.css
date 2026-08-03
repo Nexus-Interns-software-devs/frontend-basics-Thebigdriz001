@@ -1,0 +1,146 @@
+/* Lab 10 - Starter CSS Template */
+
+/* ========================================
+   CSS RESET - Always include this!
+   ======================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========================================
+   COLOR PALETTE - Define your colors here
+   ======================================== */
+:root {
+  --primary-color: #2c3e50;      /* TODO: Choose your primary color */
+  --secondary-color: #3498db;    /* TODO: Choose your secondary color */
+  --accent-color: #e74c3c;       /* TODO: Optional accent color */
+  --text-color: #333;
+  --background-color: #f4f4f4;
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* TODO: Add max-width container for main content */
+main {
+  /* HINT: max-width: 800px; margin: 0 auto; padding: 0 1rem; */
+}
+
+/* ========================================
+   HEADER STYLING
+   ======================================== */
+header {
+  /* TODO: Add background color */
+  /* TODO: Add padding (2rem recommended) */
+  /* TODO: Center text */
+  /* TODO: Add text color (white for dark backgrounds) */
+}
+
+header h1 {
+  /* TODO: Style your name heading */
+}
+
+/* ========================================
+   NAVIGATION STYLING
+   ======================================== */
+nav ul {
+  /* TODO: Remove bullets (list-style: none) */
+  /* TODO: Make horizontal (display: flex) */
+  /* TODO: Center items (justify-content: center) */
+  /* TODO: Add spacing between items (gap: 2rem) */
+}
+
+nav a {
+  /* TODO: Remove underline */
+  /* TODO: Set color */
+  /* TODO: Add font-weight: bold */
+}
+
+nav a:hover {
+  /* TODO: Add hover effect (suggestion: text-decoration: underline) */
+}
+
+/* ========================================
+   SECTION STYLING
+   ======================================== */
+section {
+  /* TODO: Background color (white recommended) */
+  /* TODO: Padding (2rem inside) */
+  /* TODO: Margin (2rem between sections) */
+  /* TODO: Optional: border-radius: 8px */
+  /* TODO: Optional: box-shadow: 0 2px 4px rgba(0,0,0,0.1) */
+}
+
+section h2 {
+  /* TODO: Color for section headings */
+  /* TODO: Margin bottom (1rem) */
+  /* TODO: Optional: border-bottom for visual separation */
+}
+
+/* ========================================
+   IMAGE STYLING
+   ======================================== */
+img {
+  /* TODO: max-width: 100% (responsive) */
+  /* TODO: height: auto */
+  /* TODO: border-radius: 50% (circular) or 8px (rounded corners) */
+  /* TODO: Center it: display: block; margin: 0 auto 1rem */
+  /* TODO: Optional: border: 4px solid var(--secondary-color) */
+}
+
+/* ========================================
+   LIST STYLING
+   ======================================== */
+ul, ol {
+  /* TODO: margin-left for indentation */
+  /* TODO: margin-bottom for spacing */
+}
+
+li {
+  /* TODO: margin-bottom between list items */
+}
+
+/* ========================================
+   FOOTER STYLING
+======================================== */
+footer {
+  /* TODO: Background color (match header or different) */
+  /* TODO: Padding */
+  /* TODO: Text color */
+  /* TODO: Text alignment */
+  /* TODO: Margin top to separate from content */
+}
+
+footer a {
+  /* TODO: Link color */
+  /* TODO: Remove underline or keep? */
+}
+
+/* ========================================
+   OPTIONAL: Additional Styling
+   ======================================== */
+
+/* If you used specific classes, style them here */
+/* Example: */
+/* .skill-list { ... } */
+/* .goals { ... } */
+
+/* ========================================
+   BEFORE YOU SUBMIT CHECKLIST:
+   ======================================== */
+/* [ ] All TODOs completed */
+/* [ ] Colors defined in :root */
+/* [ ] All sections styled */
+/* [ ] Text is readable (good contrast) */
+/* [ ] Spacing looks good (use Chrome DevTools) */
+/* [ ] Opened in browser to verify */
+/* [ ] CSS file linked in HTML <head> */

@@ -1,0 +1,26 @@
+{
+  "name": "frontend-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimaathii/FRONTEND-BASICS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimaathii/FRONTEND-BASICS/issues"
+  },
+  "homepage": "https://github.com/Kimaathii/FRONTEND-BASICS#readme",
+  "devDependencies": {
+    "css": "^3.0.0",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "jest-expect-message": "^1.1.3"
+  }
+}
